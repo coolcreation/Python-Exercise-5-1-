@@ -13,9 +13,10 @@ Chapter #5 - Test & Debug
 
 List the valid entries that I'm going to make and the correct results for each set of entries:
 
-30, 60, 90 = should be 60
-10, 20, 30, 40, 50 = should be 30
-20.1, 20.5, 20.9 = should be 20.5
+30, 60, 90 = should be 180, average score 60
+0, 20, 40, 60, 80 = should be 200, average score 40
+10, 30.6, 0, 100 = should be 140.6, average score 35.15
+20.1, 20.5, 20.9 = should be 61.5, average score 20.5
 
 List the invalid entries that I'm going to make. These should include entries that test the limits
 of the allowable values, and test data type discrepancies:
